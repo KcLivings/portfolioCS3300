@@ -1,0 +1,17 @@
+:   0: Starting resolution (2023-03-21 16:14:16 +0000)
+:   0: User-requested dependencies: [#<Gem::Resolver::DependencyRequest:0x00005637469f0de8 @dependency=<Gem::Dependency type=:runtime name="did_you_mean" requirements="= 1.5.0">, @requester=nil>, #<Gem::Resolver::DependencyRequest:0x00005637469f0d98 @dependency=<Gem::Dependency type=:runtime name="bundler" requirements="= 2.2.22">, @requester=nil>]
+Resolving dependencies...:   0: Creating possibility state for did_you_mean (= 1.5.0) (1 remaining)
+:   1: Attempting to activate [did_you_mean-1.5.0]
+:   1: Activated did_you_mean at [did_you_mean-1.5.0]
+:   1: Requiring nested dependencies ()
+:   1: Creating possibility state for bundler (= 2.2.22) (1 remaining)
+:   2: Attempting to activate [bundler-2.2.22]
+:   2: Activated bundler at [bundler-2.2.22]
+:   2: Requiring nested dependencies ()
+
+:   0: Finished resolution (2 steps) (Took 0.0061275 seconds) (2023-03-21 16:14:16 +0000)
+:   0: Unactivated: 
+:   0: Activated: did_you_mean, bundler
+Bundle complete! 0 Gemfile dependencies, 1 gem now installed.
+Gems in the group 'production' were not installed.
+Use `bundle info [gemname]` to see where a bundled gem is installed.
