@@ -7,6 +7,7 @@ ruby '3.0.2'
 gem 'rails', '~> 6.1.7'
 
 gem "devise"
+gem 'factory_bot_rails'
 
 # mini racer 
 gem 'mini_racer'
