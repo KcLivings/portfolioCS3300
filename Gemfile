@@ -7,7 +7,6 @@ ruby '3.0.2'
 gem 'rails', '~> 6.1.7'
 
 gem "devise"
-gem 'factory_bot_rails'
 
 # mini racer 
 gem 'mini_racer'
@@ -18,7 +17,11 @@ group :development, :test do
   gem "sqlite3", "~> 1.4"
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+
+  gem 'pry-rails'
   gem 'rspec-rails', '~> 4.1.0'
+  gem 'factory_bot_rails'
+  gem 'faker'
 end
 
 # Use Puma as the app server
@@ -46,10 +49,10 @@ group :production do
   gem 'rails_12factor'
 end
 
-group :development, :test do
+#group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-end
+#  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+#end
 
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
