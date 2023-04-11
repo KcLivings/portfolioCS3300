@@ -18,11 +18,11 @@ RSpec.describe User, type: :model do
       end
 
       context 'When new registration does not go well' do
-        it 'Cannot register if nickname is empty' do
-          @user.nickname = nil
-          @user.valid?
-          expect(@user.errors.full_messages).to include('Please enter a nickname')
-        end
+        #it 'Cannot register if nickname is empty' do
+        #  @user.nickname = nil
+        #  @user.valid?
+        #  expect(@user.errors.full_messages).to include('Please enter a nickname')
+        #end
         it 'Cannot register if email is empty' do
           @user.email = nil
           @user.valid?

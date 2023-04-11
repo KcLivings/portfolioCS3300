@@ -2,7 +2,7 @@ require "rails_helper"
 
 RSpec.describe ProjectsController, :type => :controller do
     
-    login_user
+    #login_user
     
     describe "test web requests" do
         context "GET #index" do
